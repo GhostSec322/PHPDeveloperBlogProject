@@ -15,7 +15,7 @@ ini_set('display_errors', 'Off');
  * Database Connection (MySQLi)
  */
 $GLOBALS['DB_CONNECTION'] = mysqli_connect(
-    'localhost',
+    'svc.sel4.cloudtype.app:31830',
     'root',
     'backdoor8175@',
     'phpblog'
